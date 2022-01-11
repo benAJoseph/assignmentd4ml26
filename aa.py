@@ -7,6 +7,8 @@ import matplotlib.pyplot as plt
 #matplotlib.use('Agg')
 import seaborn as sns 
 
+st.set_option('deprecation.showPyplotGlobalUse', False)
+
 df = pd.read_csv('test.csv')
 
 st.title("Air Travel Customer Satisfaction")
